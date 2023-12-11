@@ -86,7 +86,7 @@ public class Sprite {
 		this.initialYPosition = initialYPosition;
 	}
 	
-	public void resetToInitialPosition(int xPosition, int yPosition) {
+	public void resetToInitialPosition() {
 		setxPosition(initialXPosition);
 		setyPosition(initialYPosition);
 	}
